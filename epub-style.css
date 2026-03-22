@@ -1,0 +1,133 @@
+/* REBOOT — EPUB Stylesheet */
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  margin: 1em;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  color: #111;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.3em;
+  page-break-before: always;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+h3 {
+  font-size: 1.15em;
+  font-weight: bold;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  color: #333;
+}
+
+p {
+  margin-bottom: 0.8em;
+  text-align: justify;
+}
+
+blockquote {
+  margin: 1em 0;
+  padding: 0.8em 1.2em;
+  border-left: 4px solid #555;
+  background-color: #f5f5f5;
+  font-style: italic;
+  color: #333;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.85em;
+  background-color: #f0f0f0;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+pre {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.75em;
+  line-height: 1.4;
+  background-color: #f5f5f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 1em 0;
+  page-break-inside: avoid;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  font-size: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.9em;
+  page-break-inside: avoid;
+}
+
+th {
+  background-color: #333;
+  color: white;
+  padding: 0.6em;
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+strong {
+  color: #111;
+}
+
+em {
+  color: #444;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2em 0;
+}
+
+/* Résumé boxes */
+ul {
+  margin-left: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+/* Cover page */
+.title-page {
+  text-align: center;
+  margin-top: 30%;
+}
